@@ -1,0 +1,22 @@
+@import '_normalize';
+@import '_home';
+
+
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
