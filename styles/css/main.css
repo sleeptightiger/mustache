@@ -402,7 +402,106 @@ template {
 [hidden] {
   display: none; }
 
+header {
+  font-family: 'Arial Black', sans-serif;
+  text-transform: uppercase;
+  width: 100%; }
+
+.logo {
+  margin: 60px auto;
+  display: block; }
+
+ul {
+  font-size: .9em;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  text-align: center;
+  display: block; }
+
+li {
+  display: inline-block;
+  padding: 0 20px; }
+
+li a:hover {
+  color: #00a39c; }
+
+.active {
+  color: #00a39c; }
+
+@font-face {
+  font-family: 'poller_oneregular';
+  src: url("../fonts/pollerone/pollerone-webfont.eot");
+  src: url("../fonts/pollerone/pollerone-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pollerone/pollerone-webfont.woff") format("woff"), url("../fonts/pollerone/pollerone-webfont.ttf") format("truetype"), url("../fonts/pollerone/pollerone-webfont.svg#poller_oneregular") format("svg"); }
+.hero {
+  background-image: url("../../images/the-beacon.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 450px;
+  padding: 15px; }
+
+.description {
+  width: 50%;
+  margin-left: auto; }
+
+.description h2 {
+  font-family: poller_oneregular;
+  text-transform: uppercase;
+  font-weight: 100;
+  background: #fff;
+  color: #000;
+  display: inline-block;
+  padding: 20px 30px;
+  margin: 30px 15px 15px 0;
+  font-size: 1.3em; }
+
+.description span {
+  font-family: Arial;
+  font-weight: 300;
+  background: #252525;
+  color: #fff;
+  display: table;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  margin: 10px;
+  margin-left: 0; }
+
+.description button {
+  padding: 25px;
+  margin: 10px;
+  margin-left: 0;
+  background-color: #00a39c;
+  color: #fff; }
+
+.description button:hover {
+  background-color: #45BCB7; }
+
+.gallery {
+  margin: 40px 0;
+  text-align: center; }
+
+.card img {
+  border: 2px solid #252525;
+  opacity: .8;
+  transition: .5s ease-in-out; }
+
+.card img:hover {
+  opacity: 1; }
+
+.card {
+  text-align: center;
+  display: inline-block;
+  font-family: poller_oneregular;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  margin: 0 6px; }
+
+.card p {
+  margin-top: 20px; }
+
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: none; }
