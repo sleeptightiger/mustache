@@ -1,0 +1,57 @@
+footer {
+  background-color: #252525;
+  height: 120px;
+  margin: 50px 0;
+  width: 100%;
+  font-family: Arial;
+  color: #fff;
+  font-size: .9em;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links a {
+  margin: 10px;
+}
+
+.links div {
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.twitter {
+  background-image: url('../../images/icons/icon-twitter.jpg');
+}
+
+.fb {
+  background-image: url('../../images/icons/icon-facebook.jpg');
+}
+
+.goog {
+  background-image: url('../../images/icons/icon-googleplus.jpg');
+}
+
+.pin {
+  background-image: url('../../images/icons/icon-pinterest.jpg');
+}
+
+.twitter:hover {
+  background-image: url('../../images/icons/icon-twitter-hover.jpg');
+}
+
+.fb:hover {
+  background-image: url('../../images/icons/icon-facebook-hover.jpg');
+}
+
+.goog:hover {
+  background-image: url('../../images/icons/icon-googleplus-hover.jpg');
+}
+
+.pin:hover {
+  background-image: url('../../images/icons/icon-pinterest-hover.jpg');
+}
