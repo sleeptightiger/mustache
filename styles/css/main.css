@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'poller_oneregular';
+  src: url("../fonts/pollerone/pollerone-webfont.eot");
+  src: url("../fonts/pollerone/pollerone-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pollerone/pollerone-webfont.woff") format("woff"), url("../fonts/pollerone/pollerone-webfont.ttf") format("truetype"), url("../fonts/pollerone/pollerone-webfont.svg#poller_oneregular") format("svg"); }
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -428,10 +432,6 @@ li a:hover {
 .active {
   color: #00a39c; }
 
-@font-face {
-  font-family: 'poller_oneregular';
-  src: url("../fonts/pollerone/pollerone-webfont.eot");
-  src: url("../fonts/pollerone/pollerone-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pollerone/pollerone-webfont.woff") format("woff"), url("../fonts/pollerone/pollerone-webfont.ttf") format("truetype"), url("../fonts/pollerone/pollerone-webfont.svg#poller_oneregular") format("svg"); }
 .hero {
   background-image: url("../../images/the-beacon.jpg");
   background-position: center;
@@ -501,6 +501,8 @@ li a:hover {
   margin-top: 20px; }
 
 footer {
+  position: absolute;
+  bottom: 0;
   background-color: #252525;
   height: 120px;
   margin-top: 50px;
@@ -547,6 +549,57 @@ footer {
 .pin:hover {
   background-image: url("../../images/icons/icon-pinterest-hover.jpg"); }
 
+.about {
+  text-align: center; }
+
+.about h1 {
+  font-family: poller_oneregular;
+  text-transform: uppercase;
+  background-color: #252525;
+  color: #fff;
+  font-weight: 100;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 2.3em;
+  margin-top: 0; }
+
+.about img {
+  border: 2px solid #252525; }
+
+.about-text {
+  width: 50%;
+  margin: 0 auto;
+  font-size: .9em;
+  padding: 10px; }
+
+.about-text h3 {
+  margin: 30px 0 10px 0; }
+
+.gallery h1 {
+  font-family: poller_oneregular;
+  text-transform: uppercase;
+  background-color: #252525;
+  color: #fff;
+  font-weight: 100;
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 2.3em;
+  margin-top: 0; }
+
+.img-gallery {
+  width: 80%;
+  margin: 0 auto; }
+
+.img-gallery img {
+  width: 28%;
+  margin: 5px;
+  border: 2px solid #252525;
+  opacity: .8;
+  transition: .5s ease-in-out; }
+
+.img-gallery img:hover {
+  opacity: 1; }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -561,5 +614,16 @@ ul {
 a {
   text-decoration: none;
   color: #000; }
+
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin: 0 0 175px;
+  /* bottom = footer height */ }
+
+.content {
+  margin-bottom: 30px; }
 
 /*# sourceMappingURL=main.css.map */

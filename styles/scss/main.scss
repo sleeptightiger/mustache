@@ -1,7 +1,19 @@
+@font-face {
+	font-family: 'poller_oneregular';
+	src: url('../fonts/pollerone/pollerone-webfont.eot');
+	src: url('../fonts/pollerone/pollerone-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('../fonts/pollerone/pollerone-webfont.woff') format('woff'),
+		 url('../fonts/pollerone/pollerone-webfont.ttf') format('truetype'),
+		 url('../fonts/pollerone/pollerone-webfont.svg#poller_oneregular') format('svg');
+}
+
+
 @import '_normalize';
 @import '_header';
 @import '_home';
 @import '_footer';
+@import '_about';
+@import '_gallery';
 
 
 * {
@@ -12,6 +24,7 @@
   &:focus {
     outline: none;
   }
+  // border: 1px solid red;
 }
 
 ul {
@@ -22,4 +35,16 @@ ul {
 a {
   text-decoration: none;
   color: #000;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 175px; /* bottom = footer height */
+}
+
+.content {
+  margin-bottom: 30px;
 }

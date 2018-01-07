@@ -1,4 +1,6 @@
 footer {
+  position: absolute;
+  bottom: 0;
   background-color: #252525;
   height: 120px;
   margin-top: 50px;
@@ -9,7 +11,7 @@ footer {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
+
 }
 
 .links a {
