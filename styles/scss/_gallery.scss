@@ -27,3 +27,33 @@
 .img-gallery img:hover {
   opacity: 1;
 }
+
+@media only screen and (max-width: 568px) {
+	.gallery {
+    width: 92%;
+    margin: 0 auto;
+
+  }
+
+  .gallery {
+    margin-bottom: 120px;
+  }
+
+  .gallery h1 {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 15px 28px;
+  }
+
+  .img-gallery {
+    width: 100%;
+  }
+
+  .img-gallery img {
+    width: 48%;
+    float: left;
+  }
+
+
+
+}

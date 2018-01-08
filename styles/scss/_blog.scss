@@ -24,10 +24,20 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
+  height: 300px;
+}
+
+.blog img {
+  width: 50%;
+  border-right: 2px solid #000;
 }
 
 .blog-text {
   padding: 55px 40px;
+}
+
+.blog-text p {
+  line-height: 25px;
 }
 
 .blog-text h3 {
@@ -57,4 +67,43 @@
 .blog-text button:hover {
   color: #252525;
   background: #fff;
+}
+
+@media only screen and (max-width: 1100px) {
+  .blog-text {
+    padding: 35px 40px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .blogs {
+    width: 65%;
+  }
+
+  .blog {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .blog-text {
+    padding: 15px 15px;
+  }
+
+  .blog img {
+    width: 100%;
+    border-right: none;
+  }
+
+}
+
+@media only screen and (max-width: 568px) {
+  .blogs h1 {
+    width: 100%;
+    font-size: 1.2em;
+    padding: 15px 28px;
+  }
+
+  .blogs {
+    width: 90%;
+  }
 }

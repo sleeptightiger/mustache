@@ -2,7 +2,7 @@
 
 .hero {
   background-image: url('../../images/the-beacon.jpg');
-  background-position: center;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
   // height: auto;
@@ -79,4 +79,29 @@
 
 .card p {
   margin-top: 20px;
+}
+
+@media only screen and (max-width: 568px) {
+	.description {
+		width: 100%;
+	}
+
+	.description h2, .description span {
+		font-size: 1em;
+	}
+
+	.description button {
+		padding: 15px;
+		font-size: .9em;
+	}
+
+	.card {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+
+	.card a img {
+		width: 90%;
+	}
+
 }

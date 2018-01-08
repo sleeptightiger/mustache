@@ -16,6 +16,7 @@
 @import '_gallery';
 @import '_blog';
 @import '_contact';
+@import '_single-blog-post';
 
 
 * {
@@ -49,4 +50,10 @@ body {
 
 .content {
   margin-bottom: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
