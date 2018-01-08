@@ -409,7 +409,8 @@ template {
 header {
   font-family: 'Arial Black', sans-serif;
   text-transform: uppercase;
-  width: 100%; }
+  width: 100%;
+  text-align: center; }
 
 .logo {
   margin: 60px auto;
@@ -846,6 +847,34 @@ footer {
 
   .blog-post img {
     width: 100%; } }
+.mobile-button {
+  cursor: pointer;
+  margin-bottom: 15px; }
+
+.mobile-menu {
+  width: 90%;
+  margin: 0 auto;
+  position: absolute;
+  top: 245px;
+  left: 5%;
+  z-index: 100; }
+
+.mobile-menu li {
+  display: block; }
+
+.mobile-menu li a {
+  display: block;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1em;
+  background-color: rgba(0, 163, 156, 0.8);
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #fff; }
+
+.mobile-menu li a:hover {
+  background-color: #000; }
+
 * {
   box-sizing: border-box;
   margin: 0;
