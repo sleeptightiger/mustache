@@ -1,7 +1,3 @@
-@font-face {
-  font-family: 'poller_oneregular';
-  src: url("../fonts/pollerone/pollerone-webfont.eot");
-  src: url("../fonts/pollerone/pollerone-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/pollerone/pollerone-webfont.woff") format("woff"), url("../fonts/pollerone/pollerone-webfont.ttf") format("truetype"), url("../fonts/pollerone/pollerone-webfont.svg#poller_oneregular") format("svg"); }
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -873,7 +869,10 @@ footer {
   border-bottom: 1px solid #fff; }
 
 .mobile-menu li a:hover {
-  background-color: #000; }
+  background-color: #252525; }
+
+.mobile-menu a.active {
+  background-color: #252525; }
 
 * {
   box-sizing: border-box;

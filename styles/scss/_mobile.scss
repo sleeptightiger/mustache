@@ -12,6 +12,8 @@
   z-index: 100;
 }
 
+
+
 .mobile-menu li {
   display: block;
 
@@ -30,5 +32,9 @@
 }
 
 .mobile-menu li a:hover {
-  background-color: #000;
+  background-color: #252525;
+}
+
+.mobile-menu a.active {
+  background-color: #252525;
 }
